@@ -261,6 +261,11 @@ section {
     
 }
 
+.features-section{
+    padding-bottom: 0px;
+}
+
+
 .title {
     color: var(--title-bcg-color);
     font-weight: 600;
