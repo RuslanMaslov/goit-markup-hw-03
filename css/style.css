@@ -40,9 +40,6 @@ body {
 }
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
-
     background: #FFFFFF;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px 
     rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -147,7 +144,8 @@ body {
 
 /* Hero */
 .hero {
-    
+    padding-top: 192px;
+    padding-bottom: 192px;
     background: var(--title-bcg-color);
     width: 1158;
     height: 603px;
@@ -157,7 +155,6 @@ body {
 
 .hero-title {
     text-align: center;
-    padding-top: 120px;
     margin-bottom: 48px;
 
     color: var(--main-color);
@@ -204,7 +201,7 @@ body {
 }
 
 
-section {
+.section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -277,6 +274,14 @@ section {
 
 .title-item {
     display: flex;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--text-color)
     
 }
 
@@ -288,10 +293,6 @@ section {
 
 .section-title{
     margin-bottom: 72px;
-}
-
-.img-section + .img-section{
-    margin-left: 24px;
 }
 
 .img-list-title{
@@ -332,8 +333,9 @@ img {
     gap: 8px
 }
 
-.card-content{
+.card-content {
     margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .card-text{
@@ -343,10 +345,6 @@ img {
 
 .card-set > .team-section{
     flex-basis: calc(100% / 4);
-}
-
-.team-section +.team-section {
-    margin-left: 24px;
 }
 
 .team {
@@ -360,6 +358,7 @@ img {
     background: var(--title-bcg-color);
 }
 
+
 .footer .logo {
     color: var(--light-color);
     line-height: 1.17;
@@ -367,6 +366,7 @@ img {
 
 .text-footer {
     color: #E7E9FC;
+    padding-top: 16px;
 }
 
 .footer .container{
@@ -396,7 +396,9 @@ img {
 }
 
 .feature-list-list{
-    padding: 0px;
+    padding-top: 0px;
+    margin-top: 96px;
+    padding-bottom: 120px;
 }
 
 .batton-port-list {
@@ -417,7 +419,6 @@ img {
     color: var(--light-color);
 }
 
-/* ++++++++++++++===========++++++++++++++++++++ */
 
 .selector {
     justify-content: center;
@@ -463,19 +464,22 @@ img {
     flex-wrap: wrap;
     row-gap: var(--gap48);
     column-gap: var(--gap24);
+    
 }
 
 .portfolio-list .item {
     flex-basis: calc((100% - 2 * var(--gap24)) / 3);
     box-shadow: var(--shadow-third);
     overflow: hidden;
+    
 }
 
 .gallery-item-text {
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
-    border: 0.5px solid var(--third-color);
+    border: 0.5px solid var(--light-color);
+    Border-top: none;
 }
 
 .link p {
@@ -486,8 +490,6 @@ img {
 .link{
     text-decoration: none;
 }
-
-
 
 
 
