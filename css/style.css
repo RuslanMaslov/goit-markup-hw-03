@@ -344,12 +344,11 @@ img {
 
 .card-content {
     margin-top: 32px;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
 }
 
 .card-text{
     margin-top: 8px;
-    margin-bottom: 39.5px;
 }
 
 .card-set > .team-section{
@@ -377,7 +376,10 @@ img {
 
 .text-footer {
     color: #E7E9FC;
-    padding-top: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    margin-top: 16px;
 }
 
 /* Porfolio */
